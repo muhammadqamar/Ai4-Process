@@ -44,7 +44,10 @@ const Index = ({ setSelect }) => {
             </p>
           </div>
           <div className="w-1 h-[383px] bg-[#fff]" />
-          <div onClick={() => setSelect("libersift")} className="w-[368px]">
+          <div
+            onClick={() => setSelect("libersift")}
+            className="w-[368px] cursor-pointer"
+          >
             <img
               src={LibersiftLogo}
               alt="Libersift"
