@@ -23,9 +23,7 @@ body {
   @apply text-black;
   background-color: rgb(241, 246, 253);
 }
-.common-bg-color {
-  background-color: rgb(241, 246, 253);
-}
+
 .blue-common {
   color: rgb(47, 103, 221, 1);
 }
