@@ -4,7 +4,6 @@ import { Tabs } from "flowbite-react";
 import Header from "../Layout/Header/header";
 import HeroBanner from "../common/HeroBanner";
 import Accordion from "../common/Accordion";
-import StartConversation from "../common/StartConversation";
 import ChatBot from "../common/ChatBot";
 import { SearchInput } from "../../utils";
 
