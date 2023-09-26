@@ -58,7 +58,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                   <Button
@@ -68,7 +68,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                 </div>
@@ -80,7 +80,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                   <Button
@@ -90,7 +90,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                 </div>
@@ -107,7 +107,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                   <Button
@@ -117,7 +117,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                 </div>
@@ -129,7 +129,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                   <Button
@@ -139,7 +139,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                 </div>
@@ -156,7 +156,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                   <Button
@@ -166,7 +166,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                 </div>
@@ -178,7 +178,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                   <Button
@@ -188,7 +188,7 @@ const NatualLanguage = () => {
                     bg="bg-White-700"
                     cta=""
                     disabled=""
-                    className="rounded-[5px] p-xlarge hover:font-medium w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
+                    className="rounded-[5px] p-xlarge hover:font-medium min-w-[86px] !h-6 border-none hover:border-[2px] hover:border-solid hover:border-[#70DE5E]"
                     marginRight=""
                   />
                 </div>
@@ -201,7 +201,7 @@ const NatualLanguage = () => {
         </div>
       </div>
       <div>
-        <p className="p-xlarge text-White-500">
+        <p className="p-xlarge text-White-500 w-[890px]">
           Reqvise is a tool that uses natural language processing to help system
           requirement engineers write requirements that are clear, consistent,
           and can be tested.

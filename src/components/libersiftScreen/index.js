@@ -1,8 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-// import DragDrop from "../common/dragDrop";
-=======
->>>>>>> bcd86a5e593066278e9a6541dfafa3d2d13249f9
 
 import Login from "../common/Login";
 import Footer from "../Layout/Footer/footer";

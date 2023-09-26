@@ -5,11 +5,8 @@ module.exports = {
     extend: {
       colors: {
         White: "rgba(254, 254, 254, 1)",
-<<<<<<< HEAD
         primaryWhite: "rgba(255, 255, 255, 75)",
-=======
         "white-100": "rgba(228, 226, 226, 0.75)",
->>>>>>> bcd86a5e593066278e9a6541dfafa3d2d13249f9
         "White-200": "rgba(228, 226, 226, 1)",
         "White-300": "rgba(196, 196, 196, 0.60)",
         "White-500": "rgba(255, 255, 255, 1)",
