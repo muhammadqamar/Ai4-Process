@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        White: "#FFFFFF",
-        Grey: "#919094",
+        White: "rgba(254, 254, 254, 1)",
+        "Grey-400": "rgba(145, 144, 148, 1)",
         Black: "#000000",
+        "Purple-900": "rgba(8, 9, 12, 1)",
         "Grey-200": "#D9D9D9",
       },
 
