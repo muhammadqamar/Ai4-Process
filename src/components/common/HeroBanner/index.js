@@ -11,7 +11,7 @@ const Index = ({ logo, bgImg }) => {
         backgroundSize: "cover",
       }}
     >
-      <h2 className="text-[22px] font-normal leading-[46px] text-White-200 [text-shadow:_0px_2px_10px_rgba(255_255_255_0.25)]  m-0">
+      <h2 className="text-[22px] font-normal leading-[46px] text-White-200 font-[Alata] [text-shadow:_0px_2px_10px_rgba(255_255_255_0.25)]  m-0">
         Welcome to
       </h2>
       {logo && (
