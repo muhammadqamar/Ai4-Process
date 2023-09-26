@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../Layout/Header/header";
 import HeroBanner from "../common/HeroBanner";
 import Accordion from "../common/Accordion";
+import NaturalLanguage from "../common/NaturalLanguage";
 
 import BannerImg from "../../assets/images/amper-bg.png";
 import ReqviseLogo from "../../assets/images/reqviseLogo.svg";
@@ -24,6 +25,9 @@ const StartSection = () => {
 
         <div className="h-full flex items-start gap-[26px]">
           <div className="w-[1px] h-[640px] bg-[#fff]" />
+          <div>
+            <NaturalLanguage />
+          </div>
         </div>
       </div>
     </div>

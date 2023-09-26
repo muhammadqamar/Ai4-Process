@@ -5,9 +5,13 @@ module.exports = {
     extend: {
       colors: {
         White: "rgba(254, 254, 254, 1)",
+        primaryWhite: "rgba(255, 255, 255, 75)",
         "White-200": "rgba(228, 226, 226, 1)",
         "White-300": "rgba(196, 196, 196, 0.60)",
         "White-500": "rgba(255, 255, 255, 1)",
+        "White-600": "rgba(255, 255, 255, 0.8)",
+        "White-700": "rgba(217, 217, 217, 1)",
+        "White-900": "rgba(255, 255, 255, 71)",
         Grey: "#919094",
         "Gray-100": "#C4C4C4",
         "Grey-400": "rgba(255, 255, 255, 0.6)",
@@ -15,6 +19,7 @@ module.exports = {
         "Grey-700": "rgba(44, 45, 58, 0.6)",
         "Grey-800": "rgba(217, 217, 217, 0.10)",
         Black: "#000000",
+        "Black-700": "rgba(26, 26, 26, 0.71)",
         "Black-800": "rgba(8, 9, 12, 1)",
         "Purple-500": "#1E1F28",
         "Purple-900": "rgba(8, 9, 12, 1)",

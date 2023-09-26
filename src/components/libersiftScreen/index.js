@@ -1,5 +1,5 @@
 import React from "react";
-import DragDrop from "../common/dragDrop";
+// import DragDrop from "../common/dragDrop";
 
 import Login from "../common/Login";
 import Footer from "../Layout/Footer/footer";

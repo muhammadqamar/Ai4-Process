@@ -1,11 +1,11 @@
 import React from "react";
 
-import Login from "../common/Login";
+// import Login from "../common/Login";
 import Footer from "../Layout/Footer/footer";
 
 import StartSection from "./startSection";
 
-import Revqvise from "../../assets/images/reqviseLogo.svg";
+// import Revqvise from "../../assets/images/reqviseLogo.svg";
 
 const Index = () => {
   return (
