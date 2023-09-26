@@ -15,7 +15,7 @@ const StartSection = () => {
       <Header logo={ReqviseLogo} />
       <HeroBanner bgImg={BannerImg} logo={ReqviseLogo} />
 
-      <div className="w-full flex items-start gap-[53px]">
+      <div className="w-full flex items-start justify-between gap-[53px]">
         <div className="w-[322px]">
           <div className="mb-[13px]">
             <SearchInput />
