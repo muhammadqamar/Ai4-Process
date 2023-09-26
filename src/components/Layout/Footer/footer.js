@@ -8,18 +8,18 @@ const Footer = () => {
         <div className="flex md:items-center md:justify-end justify-between xl:gap-[334px] md:gap-[180px] gap-6 md:flex-nowrap flex-wrap text-White mb-[37px] ">
           <ul className="flex md:items-center justify-between md:flex-row flex-col md:gap-0 gap-5 md:flex-nowrap flex-wrap h6 md:w-[434px] ">
             <li>
-              <a href="">Terms & Conditions</a>
+              <a href="/">Terms & Conditions</a>
             </li>
             <li>
-              <a href="">Privacy Policy</a>
+              <a href="/">Privacy Policy</a>
             </li>
             <li>
-              <a href="">FAQ</a>
+              <a href="/">FAQ</a>
             </li>
           </ul>
           <ul className="flex items-center gap-[17.95px]">
             <li>
-              <a href="" className="p-medium">
+              <a href="/" className="p-medium">
                 Support
               </a>
             </li>
