@@ -1,8 +1,7 @@
 import React from "react";
-import DragDrop from "../common/dragDrop";
 
 const index = () => {
-  return <DragDrop />
+  return <div>index</div>;
 };
 
 export default index;
