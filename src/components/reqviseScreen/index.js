@@ -1,6 +1,7 @@
 import React from 'react';
 import Revqvise from "../../assets/images/reqviseLogo.svg"
 import Button from "../../utils/Button/index"
+import Footer from "../Layout/Footer/footer"
 
 const Index = () => {
   return (
@@ -11,9 +12,10 @@ const Index = () => {
           <p className='h2 pl-[91px] pr-[41px]'>Reqvise is a tool that uses natural language processing to help system requirement engineers write requirements that are clear, consistent, and can be tested.</p>
         </div>
         <div>
-          {/* <Button text="Login"/> */}
+          {/* <Button /> */}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

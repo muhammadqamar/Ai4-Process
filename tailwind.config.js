@@ -4,13 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        White: "rgba(255, 255, 255, 1)",
+        White: "rgba(254, 254, 254, 1)",
+        "White-200": "rgba(228, 226, 226, 1)",
+        "White-300": "rgba(196, 196, 196, 0.60)",
         Grey: "#919094",
         "Gray-100": "#C4C4C4",
+        "Grey-500": "rgba(145, 144, 148, 1)",
         Black: "#000000",
         "Purple-500": "#1E1F28",
         "Purple-900": "rgba(8, 9, 12, 1)",
         "Grey-200": "#D9D9D9",
+        "Mist-500": "rgba(69, 217, 252, 1)",
       },
 
       boxShadow: {
