@@ -25,9 +25,6 @@ const DragDrop = () => {
             placeholder="Input your discussion name here..."
             className="bg-Grey-800 py-[14px] text-center min-w-[372px]"
           />
-          <button className="rounded-[10px] px-[10px] flex justify-center p-small !font-normal text-Black-800 bg-Mist-600 Atlata">
-            Start Conversation
-          </button>
           <Button
             text="Start Conversation"
             Icon={null}
