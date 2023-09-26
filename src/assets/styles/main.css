@@ -8,6 +8,7 @@
   @apply m-0 p-0  box-border;
   font-family: "Poppins", sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -20,14 +21,10 @@ span {
 }
 
 body {
-  @apply text-black;
-  background-color: rgb(241, 246, 253);
+  @apply text-black bg-[#08090c];
 }
 .Atlata {
   font-family: "Alata", sans-serif;
-}
-.blue-common {
-  color: rgb(47, 103, 221, 1);
 }
 
 /* typography */
@@ -69,4 +66,34 @@ body {
 
 /* comman style */
 
-/* buttomn */
+.login-borders::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #45d9fc 17.14%, #5846f9 94.72%);
+}
+.login-borders::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #45d9fc 17.14%, #5846f9 94.72%);
+}
+
+.footer-border::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-image: url("../images/footer-gradient.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
