@@ -5,10 +5,13 @@ module.exports = {
     extend: {
       colors: {
         White: "rgba(254, 254, 254, 1)",
-        "Grey-400": "rgba(145, 144, 148, 1)",
+        "Gray-100": "#C4C4C4",
+        "Grey-500": "rgba(145, 144, 148, 1)",
         Black: "#000000",
+        "Purple-500": "#1E1F28",
         "Purple-900": "rgba(8, 9, 12, 1)",
         "Grey-200": "#D9D9D9",
+        "Mist-500": "rgba(69, 217, 252, 1)",
       },
 
       boxShadow: {
