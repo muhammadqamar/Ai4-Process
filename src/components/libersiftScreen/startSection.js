@@ -18,8 +18,8 @@ const StartSection = () => {
       <Header logo={Libersift} />
       <HeroBanner bgImg={HeroBg} logo={heroLogo} />
 
-      <div className="w-full flex items-start justify-between gap-[18px] px-[51px]">
-        <div className="w-[357px] flex-shrink-0">
+      <div className="w-full flex items-start justify-between flex-col md:flex-row gap-[18px] px-[20px] sm:px-[51px]">
+        <div className="w-full md:w-[357px] flex-shrink md:flex-shrink-0">
           <Tabs.Group aria-label="Default tabs" className="tabs-style">
             <Tabs.Item active title="Conversations">
               <div className="pr-[29px] pl-2 border-t border-[#2C2D3A] pt-[13px]">
@@ -40,12 +40,12 @@ const StartSection = () => {
           </Tabs.Group>
         </div>
 
-        <div className="h-full flex items-start gap-[26px]">
-          <div className="w-[1px] h-[640px] bg-[#fff]" />
+        <div className="h-full flex items-start flex-col md:flex-row gap-[26px] ">
+          <div className="w-full md:w-[1px] h-[1px] md:h-[640px] bg-[#fff]" />
 
           {/* chart */}
 
-          <div className="bg-Grey-700 max-w-full min-h-[650px] px-[45px] pt-[29px] pb-3  ">
+          <div className="bg-Grey-700 w-full min-h-[650px] px-[45px] pt-[29px] pb-3  ">
             {/* <StartConversation /> */}
             <ChatBot />
 

@@ -5,8 +5,8 @@ import Button from "../../../utils/Button";
 const NatualLanguage = () => {
   return (
     <div className="bg-Grey-700 w-full pr-[31px] pl-[24px] pt-[19px] pb-3">
-      <div className="h-[552px] flex gap-[30px] mb-[31px]">
-        <div className="flex w-[659px] flex-col h-full justify-between mt-[13px]">
+      <div className="w-full min-h-[552px] flex gap-[30px] mb-[31px]">
+        <div className="flex w-full flex-col  justify-between gap-[106px] mt-[13px]">
           <div>
             <h5 className=" h5 text-center text-Grey-400 !leading-normal !tracking-[-1.1px] mb-[9px]">
               Write down your requirement and chose how you want Reqvise to
@@ -42,7 +42,7 @@ const NatualLanguage = () => {
             className="!bg-Grey-800 border-none"
           />
         </div>
-        <div className="flex gap-4">
+        <div className="hidden md:flex gap-4   w-fit">
           <div className="w-[1px] h-full bg-White-500"></div>
           <div className="flex flex-col justify-between">
             <div>
@@ -50,7 +50,7 @@ const NatualLanguage = () => {
                 <p className="p-small !leading-normal text-White-600 mb-2">
                   Grammar
                 </p>
-                <div className="flex gap-x-5 mb-[7px]">
+                <div className="flex  gap-x-5 mb-[7px]">
                   <Button
                     text="Option 1"
                     Icon={false}
@@ -72,7 +72,7 @@ const NatualLanguage = () => {
                     marginRight=""
                   />
                 </div>
-                <div className="flex gap-x-5">
+                <div className="flex   gap-x-5">
                   <Button
                     text="Option 3"
                     Icon={false}
@@ -99,7 +99,7 @@ const NatualLanguage = () => {
                 <p className="p-small !leading-normal text-White-600 mb-2">
                   Vocabulary
                 </p>
-                <div className="flex gap-x-5 mb-[7px]">
+                <div className="flex   gap-x-5 mb-[7px]">
                   <Button
                     text="Option 1"
                     Icon={false}
@@ -121,7 +121,7 @@ const NatualLanguage = () => {
                     marginRight=""
                   />
                 </div>
-                <div className="flex gap-x-5">
+                <div className="flex   gap-x-5">
                   <Button
                     text="Option 3"
                     Icon={false}
@@ -148,7 +148,7 @@ const NatualLanguage = () => {
                 <p className="p-small !leading-normal text-White-600 mb-2">
                   Technical Level
                 </p>
-                <div className="flex gap-x-5 mb-[7px]">
+                <div className="flex   gap-x-5 mb-[7px]">
                   <Button
                     text="Edit"
                     Icon={false}
@@ -170,7 +170,7 @@ const NatualLanguage = () => {
                     marginRight=""
                   />
                 </div>
-                <div className="flex gap-x-5">
+                <div className="flex   gap-x-5">
                   <Button
                     text="Suggest"
                     Icon={false}
@@ -194,14 +194,14 @@ const NatualLanguage = () => {
                 </div>
               </div>
             </div>
-            <p className="p-xlarge text-White-900 underline text-center w-[209px]">
+            <p className="p-xlarge text-White-900 underline text-center whitespace-nowrap ">
               Use the same parameters always
             </p>
           </div>
         </div>
       </div>
       <div>
-        <p className="p-xlarge text-White-500 w-[890px]">
+        <p className="p-xlarge text-White-500 w-full">
           Reqvise is a tool that uses natural language processing to help system
           requirement engineers write requirements that are clear, consistent,
           and can be tested.

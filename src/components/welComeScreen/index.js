@@ -8,7 +8,7 @@ import AmazitLogo from "../../assets/images/amazit.svg";
 const Index = ({ setSelect }) => {
   return (
     <div
-      className="w-full min-h-screen pt-[94px] pb-[59px] relative"
+      className="w-full min-h-screen pt-[94px] pb-[150px] md:pb-[59px] relative px-5"
       style={{
         backgroundImage: `url(${AiBG})`,
         backgroundPosition: "center",
@@ -17,7 +17,7 @@ const Index = ({ setSelect }) => {
       }}
     >
       <div className="max-w-[913px] h-full  mx-auto text-[#fff]">
-        <div className="w-full text-center  mb-4">
+        <div className="w-full text-center mb-10 md:mb-4">
           <p className="text-[20px] font-light leading-normal">Welcome to</p>
           <h1 className="text-[45px] font-bold leading-normal mb-[58px]">
             Ai4Process
@@ -27,10 +27,10 @@ const Index = ({ setSelect }) => {
           </p>
         </div>
 
-        <div className="w-full flex items-center  justify-between gap-6">
+        <div className="w-full flex items-center  justify-between flex-col md:flex-row gap-10 md:gap-6 ">
           <div
             onClick={() => setSelect("reqvise")}
-            className="w-[325px] cursor-pointer"
+            className="max-w-[325px] cursor-pointer"
           >
             <img
               src={ReqvuiseLogo}
@@ -43,10 +43,10 @@ const Index = ({ setSelect }) => {
               consistent, and can be tested.
             </p>
           </div>
-          <div className="w-1 h-[383px] bg-[#fff]" />
+          <div className="w-full md:w-1 h-1 md:h-[383px] bg-[#fff]" />
           <div
             onClick={() => setSelect("libersift")}
-            className="w-[368px] cursor-pointer"
+            className="max-w-[368px] cursor-pointer"
           >
             <img
               src={LibersiftLogo}
@@ -63,7 +63,7 @@ const Index = ({ setSelect }) => {
         </div>
       </div>
 
-      <div className="absolute bottom-[59px] right-[48px]">
+      <div className="absolute bottom-7 md:bottom-[59px] right-[48px]">
         <img src={AmazitLogo} alt="Amazit" className="w-fit h-fit " />
       </div>
     </div>
