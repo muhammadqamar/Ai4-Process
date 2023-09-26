@@ -97,3 +97,23 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+/* tabs style */
+
+.tabs-style button[aria-selected="false"] {
+  @apply w-fit h-[39px] px-[10px] text-base  font-normal text-[#828286] bg-[#1E1F28]  rounded-t-[10px];
+}
+
+.tabs-style button[aria-selected="true"] {
+  @apply w-fit h-[39px] px-[10px] text-base  font-normal text-[#08090C] bg-[#5CC]  rounded-t-[10px];
+}
+
+.tabs-style button[aria-selected="false"]:first-child,
+.tabs-style button[aria-selected="true"]:first-child {
+  @apply ml-[39px];
+}
+
+.tabs-style button[aria-selected="false"]:last-child,
+.tabs-style button[aria-selected="true"]:last-child {
+  @apply ml-[22px];
+}

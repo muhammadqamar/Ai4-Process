@@ -11,7 +11,7 @@ import { SearchInput } from "../../utils";
 const StartSection = () => {
   return (
     <div className="max-w-[1440px] mx-auto mb-[26px]">
-      <Header />
+      <Header logo={ReqviseLogo} />
       <HeroBanner bgImg={BannerImg} logo={ReqviseLogo} />
 
       <div className="w-full flex items-start gap-[53px]">
