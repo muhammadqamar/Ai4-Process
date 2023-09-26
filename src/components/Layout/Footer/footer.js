@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="max-w-[1440px] mx-auto flex flex-col px-[38px] pt-[41px] ">
         <div className="flex md:items-center md:justify-end justify-between xl:gap-[334px] md:gap-[180px] gap-6 md:flex-nowrap flex-wrap text-White mb-[37px] ">
           <ul className="flex md:items-center justify-between md:flex-row flex-col md:gap-0 gap-5 md:flex-nowrap flex-wrap h6 md:w-[434px] ">
-            <li>Terms & Conditions</li>
-            <li>Privacy Policy</li>
-            <li>FAQ</li>
+            <li className="h6">Terms & Conditions</li>
+            <li className="h6">Privacy Policy</li>
+            <li className="h6">FAQ</li>
           </ul>
           <div className="flex items-center gap-[17.95px]">
             <p className="p-medium">Support</p>
