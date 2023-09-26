@@ -17,6 +17,9 @@ module.exports = {
         "small-shadow": "-20px 67px 80px 0px rgba(27, 20, 100, 0.03)",
         "medium-shadow": "0px 0px 0px 1px rgba(0, 0, 0, 0.34)",
       },
+      backgroundImage: {
+        'gradient-100': "linear-gradient(90deg, #45D9FC 17.14%, #5846F9 94.72%)"
+      },
 
       screens: {
         xsm: "375px",
