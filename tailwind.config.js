@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       colors: {
         White: "#FFFFFF",
-        Black: "rgba(33, 33, 33, 1)",
+        Grey: "#919094",
+        Black: "#000000",
+        "Grey-200": "#D9D9D9",
       },
 
       boxShadow: {

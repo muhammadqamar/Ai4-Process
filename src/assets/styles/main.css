@@ -33,29 +33,38 @@ body {
 /* typography */
 
 /* heading */
-
+.h2 {
+  @apply text-[28px] leading-normal font-light tracking-normal;
+}
+.h3 {
+  @apply text-[26.3px] leading-normal font-medium tracking-normal;
+}
 .h4 {
-  @apply text-[32px] leading-[42px] font-medium tracking-[-0.48px];
+  @apply text-[24px] leading-normal font-medium tracking-normal;
 }
 .h5 {
-  @apply text-[25px] leading-[32px] font-medium tracking-[-0.48px];
+  @apply text-[22px] leading-[31.79px] font-light tracking-normal;
 }
 .h6 {
-  @apply text-[20px] leading-[28px] font-medium tracking-[-0.48px];
+  @apply text-[20px] leading-[22px] font-normal tracking-normal;
 }
 
 /*paragraphs*/
 
 .p-small {
-  @apply text-[12px] leading-[16px] font-normal tracking-[-0.2px];
+  @apply text-[16px] leading-[46px] font-light tracking-normal;
 }
 
 .p-medium {
-  @apply text-[14px] leading-[18px] font-normal tracking-[-0.2px];
+  @apply text-[15.057px] leading-normal font-normal tracking-normal;
 }
 
 .p-large {
-  @apply text-[16px] leading-[24px] font-normal tracking-[-0.2px];
+  @apply text-[14px] leading-normal font-light tracking-normal;
+}
+
+.p-xlarge {
+  @apply text-[12px] leading-normal font-light tracking-normal;
 }
 
 /* comman style */
