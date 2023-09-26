@@ -21,7 +21,10 @@ span {
 }
 
 body {
-  @apply text-black !bg-Purple-900;
+  @apply text-black bg-[#08090c];
+}
+.Atlata {
+  font-family: "Alata", sans-serif;
 }
 
 /* typography */

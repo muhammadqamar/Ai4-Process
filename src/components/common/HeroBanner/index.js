@@ -3,7 +3,7 @@ import React from "react";
 const Index = ({ logo, bgImg }) => {
   return (
     <div
-      className="max-w-[1240px] h-[149px] px-[18px] py-5 flex flex-col items-end"
+      className="max-w-[1240px] mx-auto mt-[30px] mb-[26px] h-[149px] px-[18px] py-5 flex flex-col items-end"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundPosition: "center",
@@ -15,7 +15,11 @@ const Index = ({ logo, bgImg }) => {
         Welcome to
       </h2>
       {logo && (
-        <img src={logo} alt="logo" className="w-full h-auto object-contain" />
+        <img
+          src={logo}
+          alt="logo"
+          className="w-[135px] h-auto object-contain"
+        />
       )}
     </div>
   );
