@@ -22,7 +22,8 @@ module.exports = {
         "medium-shadow": "0px 0px 0px 1px rgba(0, 0, 0, 0.34)",
       },
       backgroundImage: {
-        'gradient-100': "linear-gradient(90deg, #45D9FC 17.14%, #5846F9 94.72%)"
+        "gradient-100":
+          "linear-gradient(90deg, #45D9FC 17.14%, #5846F9 94.72%)",
       },
 
       screens: {
@@ -40,5 +41,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };
