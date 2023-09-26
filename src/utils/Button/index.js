@@ -1,27 +1,23 @@
 import React from "react";
 
-const Index = ({ props }) => {
-  const {
-    text,
-    Icon,
-    color,
-    bg,
-    cta,
-    border,
-    disabled,
-    className,
-    marginRight,
-  } = props;
-
+const Button = ({
+  text,
+  Icon,
+  color,
+  bg,
+  cta,
+  disabled,
+  className,
+  marginRight,
+}) => {
   return (
     <button
-      {...props}
       onClick={() => {
         if (cta) {
           cta();
         }
       }}
-      className={`${border} fit-content flex h-[53px] fit-content items-center font-light text-[22px] justify-center leading-8 bg-Gray-100  text-Black  ${bg} ${color} ${className}`}
+      className={`rounded-lg fit-content flex h-[53px] fit-content items-center font-light text-[22px] justify-center leading-8 bg-Gray-100  text-Black px-[16px] py-2 ${bg} ${color} ${className}`}
     >
       {Icon && <span className={`${Icon ? marginRight : "mr-0"}`}>{Icon}</span>}
       {text}
@@ -29,4 +25,4 @@ const Index = ({ props }) => {
   );
 };
 
-export default Index;
+export default Button;
