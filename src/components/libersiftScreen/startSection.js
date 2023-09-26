@@ -4,11 +4,13 @@ import { Tabs } from "flowbite-react";
 import Header from "../Layout/Header/header";
 import HeroBanner from "../common/HeroBanner";
 import Accordion from "../common/Accordion";
+import StartConversation from "../common/StartConversation";
+import ChatBot from "../common/ChatBot";
+import { SearchInput } from "../../utils";
 
 import Libersift from "../../assets/images/login-libersift-logo.svg";
 import heroLogo from "../../assets/images/Libersift-header.svg";
 import HeroBg from "../../assets/images/ron-dyar.png";
-import { SearchInput } from "../../utils";
 
 const StartSection = () => {
   return (
@@ -17,7 +19,7 @@ const StartSection = () => {
       <HeroBanner bgImg={HeroBg} logo={heroLogo} />
 
       <div className="w-full flex items-start justify-between gap-[18px] px-[51px]">
-        <div className="w-[357px]">
+        <div className="w-[357px] flex-shrink-0">
           <Tabs.Group aria-label="Default tabs" className="tabs-style">
             <Tabs.Item active title="Conversations">
               <div className="pr-[29px] pl-2 border-t border-[#2C2D3A] pt-[13px]">
@@ -40,6 +42,20 @@ const StartSection = () => {
 
         <div className="h-full flex items-start gap-[26px]">
           <div className="w-[1px] h-[640px] bg-[#fff]" />
+
+          {/* chart */}
+
+          <div className="bg-Grey-700 max-w-full min-h-[650px] px-[45px] pt-[29px] pb-3  ">
+            {/* <StartConversation /> */}
+            <ChatBot />
+
+            <p className="p-xlarge text-White-500">
+              Libersift is AI-powered search tool that revolutionizes the way
+              you navigate technical documentation. Libersift leverages advanced
+              AI algorithms to deliver fast and accurate answers to your
+              queries.
+            </p>
+          </div>
         </div>
       </div>
     </div>
