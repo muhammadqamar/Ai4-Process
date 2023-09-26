@@ -8,7 +8,7 @@ const Home = () => {
   const [select, setSelect] = useState("welcome");
 
   return (
-    <>
+    <div>
       {select === "welcome" ? (
         <WelComeScreen setSelect={setSelect} />
       ) : select === "reqvise" ? (
@@ -16,7 +16,7 @@ const Home = () => {
       ) : (
         select === "libersift" && <LibersiftScreen />
       )}
-    </>
+    </div>
   );
 };
 

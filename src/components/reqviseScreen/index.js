@@ -7,7 +7,7 @@ import { Button } from "../../utils";
 const Index = () => {
   return (
     <>
-      <div className="min-h-[529px] border-y-4 border-solid mt-[191px] mb-[231px]">
+      <div className="bg-Black-800 min-h-[529px] border-y-4 border-solid mt-[191px] mb-[231px]">
         <div className="max-w-[1260px] h-full mx-auto ">
           <div className="flex flex-col items-center text-White justify-center gap-[19px] pt-[126px] pb-[52px]">
             <img src={Revqvise} alt="logo" />
@@ -26,8 +26,8 @@ const Index = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

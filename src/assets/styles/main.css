@@ -20,7 +20,14 @@ span {
 }
 
 body {
-  @apply text-black !bg-Purple-900;
+  @apply text-black;
+  background-color: rgb(241, 246, 253);
+}
+.Atlata {
+  font-family: "Alata", sans-serif;
+}
+.blue-common {
+  color: rgb(47, 103, 221, 1);
 }
 
 /* typography */
