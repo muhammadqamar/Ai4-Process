@@ -5,6 +5,7 @@ import Header from "../Layout/Header/header";
 import HeroBanner from "../common/HeroBanner";
 import Accordion from "../common/Accordion";
 import ChatBot from "../common/ChatBot";
+import StartConversation from "../common/StartConversation";
 import { SearchInput } from "../../utils";
 
 import Libersift from "../../assets/images/login-libersift-logo.svg";
@@ -45,8 +46,7 @@ const StartSection = ({ setLogin }) => {
           {/* chart */}
 
           <div className="bg-Grey-700 w-full min-h-[650px] px-[45px] pt-[29px] pb-3  ">
-            {/* <StartConversation /> */}
-            <ChatBot />
+            {true ? <StartConversation document /> : <ChatBot />}
 
             <p className="p-xlarge text-White-500">
               Libersift is AI-powered search tool that revolutionizes the way
