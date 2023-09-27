@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../../../utils";
 
-const Header = ({ logo }) => {
+const Header = ({ logo, setLogin }) => {
   return (
     <div className="w-full mx-auto flex justify-between pt-[26px] px-[100px] ">
       <img src={logo} alt="reqviseLogo" className="w-[145px] h-auto" />
@@ -16,6 +16,7 @@ const Header = ({ logo }) => {
           bg="bg-Purple-500"
           color="text-Mist-500"
           className="!h-fit !px-[6px] !py-[3.5px] rounded-none !text-[15px] !leading-normal"
+          cta={() => setLogin("login")}
         />
       </div>
     </div>

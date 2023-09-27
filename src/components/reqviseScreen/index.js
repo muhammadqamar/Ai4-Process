@@ -17,7 +17,7 @@ const Index = () => {
           onLogin={() => setLogin("reqSection")}
         />
       ) : (
-        login === "reqSection" && <StartSection />
+        login === "reqSection" && <StartSection setLogin={setLogin} />
       )}
 
       <Footer />

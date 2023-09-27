@@ -9,10 +9,10 @@ import BannerImg from "../../assets/images/amper-bg.png";
 import ReqviseLogo from "../../assets/images/reqviseLogo.svg";
 import { SearchInput } from "../../utils";
 
-const StartSection = () => {
+const StartSection = ({ setLogin }) => {
   return (
     <div className="max-w-[1440px] mx-auto mb-[26px]">
-      <Header logo={ReqviseLogo} />
+      <Header logo={ReqviseLogo} setLogin={setLogin} />
       <div className="w-full px-[20px]">
         <HeroBanner bgImg={BannerImg} logo={ReqviseLogo} />
       </div>

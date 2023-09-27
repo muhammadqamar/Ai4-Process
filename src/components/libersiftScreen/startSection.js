@@ -11,10 +11,10 @@ import Libersift from "../../assets/images/login-libersift-logo.svg";
 import heroLogo from "../../assets/images/Libersift-header.svg";
 import HeroBg from "../../assets/images/ron-dyar.png";
 
-const StartSection = () => {
+const StartSection = ({ setLogin }) => {
   return (
     <div className="max-w-[1440px] mx-auto mb-[26px]">
-      <Header logo={Libersift} />
+      <Header logo={Libersift} setLogin={setLogin} />
       <HeroBanner bgImg={HeroBg} logo={heroLogo} />
 
       <div className="w-full flex items-start justify-between flex-col md:flex-row gap-[18px] px-[20px] sm:px-[51px]">
