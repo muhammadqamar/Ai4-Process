@@ -8,7 +8,7 @@ export const SearchInput = () => {
       <input
         type="text"
         placeholder="Search previous discussions"
-        className="w-full !h-auto !border-none !outline-none !p-0 p-large text-White-300 bg-transparent "
+        className="w-full !h-auto !border-none !outline-none !p-0 p-large text-White-300 bg-transparent focus:outline-none focus:ring-0"
       />
     </div>
   );

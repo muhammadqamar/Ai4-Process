@@ -44,7 +44,7 @@ const Index = () => {
       <div className="flex flex-row bg-Grey-800 min-h-[45px] mb-[57px]">
         <input
           type="text"
-          className="bg-transparent w-full text-white-100 px-3 border-none !outline-none"
+          className="bg-transparent w-full text-white-100 px-3 border-none !outline-none focus:outline-none focus:ring-0"
         />
         <img src={RightArrowIcon} alt="arrow" className="mr-[15px]" />
       </div>
