@@ -10,7 +10,7 @@ const Index = ({ logo, text, onLogin }) => {
           <img src={logo} alt="logo" className="mb-[30px]" />
           <p className="h2 ">{text}</p>
 
-          <div className="flex items-center gap-[24px] mt-[91px]">
+          <div className="flex items-center flex-wrap gap-[24px] mt-[91px]">
             <Button cta={onLogin} text="Login" className="w-[158px]" />
             <Button
               text="Read More"

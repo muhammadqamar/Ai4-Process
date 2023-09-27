@@ -8,7 +8,7 @@ import AmazitLogo from "../../assets/images/amazit.svg";
 const Index = ({ setSelect }) => {
   return (
     <div
-      className="w-full min-h-screen pt-[94px] pb-[150px] md:pb-[59px] relative px-5"
+      className="w-full min-h-screen pt-[94px] pb-[150px]  relative px-5"
       style={{
         backgroundImage: `url(${AiBG})`,
         backgroundPosition: "center",

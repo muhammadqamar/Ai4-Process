@@ -15,7 +15,7 @@ const StartSection = () => {
       <Header logo={ReqviseLogo} />
       <HeroBanner bgImg={BannerImg} logo={ReqviseLogo} />
 
-      <div className="w-full flex items-start flex-col xl:flex-row gap-[53px] px-[20px] sm:px-[51px]">
+      <div className="w-full flex items-start flex-col xl:flex-row gap-[53px] px-[20px] sm:px-[43px]">
         <div className="w-full md:w-[322px] flex-shrink-0">
           <div className="mb-[13px]">
             <SearchInput />
@@ -23,7 +23,7 @@ const StartSection = () => {
           <Accordion />
         </div>
 
-        <div className="h-full flex items-start flex-col md:flex-row gap-[26px]">
+        <div className="h-full w-full flex items-start flex-col md:flex-row gap-[26px]">
           <div className="w-full md:w-[1px] h-[1px] md:h-[640px] bg-[#fff]" />
           <div className="w-full">
             <NaturalLanguage />

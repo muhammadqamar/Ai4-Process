@@ -17,7 +17,7 @@ const StartSection = () => {
       <Header logo={Libersift} />
       <HeroBanner bgImg={HeroBg} logo={heroLogo} />
 
-      <div className="w-full flex items-start justify-between flex-col md:flex-row gap-[18px] px-[20px] sm:px-[51px]">
+      <div className="w-full flex items-start justify-between flex-col md:flex-row gap-[18px] px-[20px] sm:px-[43px]">
         <div className="w-full md:w-[357px] flex-shrink md:flex-shrink-0">
           <Tabs.Group aria-label="Default tabs" className="tabs-style">
             <Tabs.Item active title="Conversations">
