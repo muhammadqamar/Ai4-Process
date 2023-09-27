@@ -3,7 +3,7 @@ import { Button } from "../../../utils";
 
 const Header = ({ logo, setLogin }) => {
   return (
-    <div className="w-full mx-auto flex justify-between pt-[26px] px-[100px] ">
+    <div className="w-full mx-auto flex justify-between pt-[26px] px-[20px] lg:px-[100px] ">
       <img src={logo} alt="reqviseLogo" className="w-[145px] h-auto" />
       <div className="flex flex-row gap-[14.3px] ">
         <Button

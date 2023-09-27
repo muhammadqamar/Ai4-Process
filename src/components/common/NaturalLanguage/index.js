@@ -4,10 +4,10 @@ import Button from "../../../utils/Button";
 
 const NatualLanguage = () => {
   return (
-    <div className="bg-Grey-700 w-full pr-[31px] pl-[24px] pt-[19px] pb-3">
+    <div className="bg-Grey-700 w-full pr-[16px] sm:pr-[31px] pl-[16px] sm:pl-[24px] pt-[19px] pb-3">
       <div className="w-full min-h-[552px] flex gap-[30px] mb-[31px]">
         <div className="flex w-full flex-col  justify-between gap-[106px] mt-[13px]">
-          <div>
+          <div className="w-full">
             <h5 className=" h5 text-center text-Grey-400 !leading-normal !tracking-[-1.1px] mb-[9px]">
               Write down your requirement and chose how you want Reqvise to
               transform it
