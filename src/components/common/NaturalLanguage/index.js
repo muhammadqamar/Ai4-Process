@@ -39,7 +39,7 @@ const NatualLanguage = () => {
           <input
             type="text"
             placeholder=""
-            className="!bg-Grey-800 border-none"
+            className="!bg-Grey-800 border-none text-White focus:outline-none focus:ring-0"
           />
         </div>
         <div className="hidden md:flex gap-4   w-fit">

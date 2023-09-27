@@ -17,9 +17,8 @@ const Index = () => {
           onLogin={() => setLogin("libsection")}
         />
       ) : (
-        login === "libsection" && <StartSection />
+        login === "libsection" && <StartSection setLogin={setLogin} />
       )}
-
       <Footer />
     </>
   );
