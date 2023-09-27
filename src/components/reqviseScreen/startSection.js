@@ -13,7 +13,9 @@ const StartSection = () => {
   return (
     <div className="max-w-[1440px] mx-auto mb-[26px]">
       <Header logo={ReqviseLogo} />
-      <HeroBanner bgImg={BannerImg} logo={ReqviseLogo} />
+      <div className="w-full px-[20px]">
+        <HeroBanner bgImg={BannerImg} logo={ReqviseLogo} />
+      </div>
 
       <div className="w-full flex items-start flex-col xl:flex-row gap-[53px] px-[20px] sm:px-[43px]">
         <div className="w-full md:w-[322px] flex-shrink-0">

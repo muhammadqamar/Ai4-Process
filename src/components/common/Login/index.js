@@ -4,7 +4,7 @@ import { Button } from "../../../utils";
 
 const Index = ({ logo, text, onLogin }) => {
   return (
-    <div className="min-h-[529px] border-y-4 border-solid mt-[191px] mb-[231px] relative login-borders">
+    <div className="min-h-[529px] px-[20px] border-y-4 border-solid mt-[191px] mb-[231px] relative login-borders">
       <div className="max-w-[1260px] h-full mx-auto ">
         <div className="flex flex-col items-center text-White justify-center gap-[19px] pt-[126px] pb-[52px]">
           <img src={logo} alt="logo" className="mb-[30px]" />
