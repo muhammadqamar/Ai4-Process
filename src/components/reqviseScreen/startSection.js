@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Header from "../Layout/Header/header";
 import HeroBanner from "../common/HeroBanner";
@@ -10,6 +10,8 @@ import ReqviseLogo from "../../assets/images/reqviseLogo.svg";
 import { SearchInput } from "../../utils";
 
 const StartSection = ({ setLogin }) => {
+  const [start, setStart] = useState(false);
+
   return (
     <div className="max-w-[1440px] mx-auto mb-[26px]">
       <Header logo={ReqviseLogo} setLogin={setLogin} />
@@ -28,7 +30,15 @@ const StartSection = ({ setLogin }) => {
         <div className="h-full w-full flex items-start flex-col md:flex-row gap-[26px]">
           <div className="w-full md:w-[1px] h-[1px] md:h-[640px] bg-[#fff]" />
           <div className="bg-Grey-700 w-full  pr-[16px] sm:pr-[31px] pl-[16px] sm:pl-[24px] pt-[19px] pb-3">
-            {false ? <NaturalLanguage /> : <StartConversation />}
+            {start ? (
+              <NaturalLanguage />
+            ) : (
+              <StartConversation
+                startConversation={() => {
+                  setStart(true);
+                }}
+              />
+            )}
 
             <div>
               <p className="p-xlarge text-White-500 w-full">

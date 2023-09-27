@@ -4,7 +4,7 @@ import { Button } from "../../../utils";
 
 import SupportIcon from "../../../assets/images/icons/support.svg";
 
-const Index = ({ document }) => {
+const Index = ({ document, startConversation }) => {
   return (
     <div className="flex flex-col items-center text-Grey-400 mt-[110px] mb-[150px]">
       {document && (
@@ -34,14 +34,12 @@ const Index = ({ document }) => {
         />
         <Button
           text="Start Conversation"
-          Icon={null}
           color="text-Black-800"
           bg="bg-Mist-600"
-          cta=""
-          border=""
-          disabled=""
+          cta={() => {
+            startConversation();
+          }}
           className="rounded-[10px] px-[10px] flex justify-center p-small !font-normal Atlata"
-          marginRight=""
         />
       </div>
     </div>

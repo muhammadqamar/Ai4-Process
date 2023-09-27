@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tabs } from "flowbite-react";
 
 import Header from "../Layout/Header/header";
@@ -13,6 +13,7 @@ import heroLogo from "../../assets/images/Libersift-header.svg";
 import HeroBg from "../../assets/images/ron-dyar.png";
 
 const StartSection = ({ setLogin }) => {
+  const [start, setStart] = useState(false);
   return (
     <div className="max-w-[1440px] mx-auto mb-[26px]">
       <Header logo={Libersift} setLogin={setLogin} />
@@ -46,7 +47,16 @@ const StartSection = ({ setLogin }) => {
           {/* chart */}
 
           <div className="bg-Grey-700 w-full min-h-[650px] px-[45px] pt-[29px] pb-3  ">
-            {true ? <StartConversation document /> : <ChatBot />}
+            {start ? (
+              <ChatBot />
+            ) : (
+              <StartConversation
+                document
+                startConversation={() => {
+                  setStart(true);
+                }}
+              />
+            )}
 
             <p className="p-xlarge text-White-500">
               Libersift is AI-powered search tool that revolutionizes the way
