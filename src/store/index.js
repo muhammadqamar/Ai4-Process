@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import movies from "./reducers/movies";
+import docs from "./reducers/libreSiftReducer/uploadDocsReducer";
 
 export const store = configureStore({
   reducer: {
-    movies,
+    docs,
   },
 });

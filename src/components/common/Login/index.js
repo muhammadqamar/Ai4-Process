@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik } from "formik";
 import { Button } from "../../../utils";
+import { storeRequireAction } from "../../../store/actions/reqViseAction";
 
 const Index = ({ logo, text, onLogin }) => {
   return (
@@ -28,7 +29,8 @@ const Index = ({ logo, text, onLogin }) => {
                 return errors;
               }}
               onSubmit={(values, { setSubmitting }) => {
-                setTimeout(() => {
+                setTimeout(async () => {
+                  await storeRequireAction(values.email, values.password)
                   console.log(JSON.stringify(values, null, 2));
                   setSubmitting(false);
                   onLogin();

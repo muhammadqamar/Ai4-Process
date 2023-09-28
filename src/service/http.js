@@ -3,11 +3,11 @@ import axios from "axios";
 const baseURL = process.env.REACT_APP_API_URL;
 const http = axios.create({ baseURL: `${baseURL}/` });
 function getAuthHeader() {
-  const accessToken = localStorage.getItem("prank_token");
+  // const accessToken = localStorage.getItem("prank_token");
   let authHeader = { "Content-Type": "application/json" };
-  if (accessToken) {
-    authHeader = { Authorization: `Bearer ${accessToken}` };
-  }
+  // if (accessToken) {
+  //   authHeader = { Authorization: `Bearer ${accessToken}` };
+  // }
   return authHeader;
 }
 

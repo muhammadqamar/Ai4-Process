@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "c7fd1d8b-378d-4608-ada3-9bdfbf0542ef",
+		"name": "libersift/reqvise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17892843"
+	},
+	"item": [
+		{
+			"name": "libersift",
+			"item": [
+				{
+					"name": "http://localhost:8000/uploadUserDocsAPI/",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "files",
+									"type": "file",
+									"src": "/Users/tengchenghoo/Desktop/python/upwork/blackbox/test_pdf.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/uploadUserDocsAPI/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"uploadUserDocsAPI",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/chatWithDocsAPI/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"John\",\n    \"input_msg\" : \"Hello there\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/chatWithDocsAPI/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"chatWithDocsAPI",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "reqvise",
+			"item": [
+				{
+					"name": "http://localhost:8000/storeRequirements/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"input_req\" : \"Design and implement a mobile application for e-commerce that allows users to browse products, add them to the cart, and make online purchases.\",\n    \"optimize_lst\" : [\"clean\",\"actionable\"],\n    \"requirements_type\" : \"marketing\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/run_revision/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"run_revision",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/run_revision/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"input_req\" : \"Design and implement a mobile application for e-commerce that allows users to browse products, add them to the cart, and make online purchases.\",\n    \"optimize_lst\" : [\"clean\",\"actionable\"],\n    \"requirements_type\" : \"marketing\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/run_revision/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"run_revision",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
