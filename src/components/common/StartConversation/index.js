@@ -1,12 +1,62 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { Button } from "../../../utils";
 
 import SupportIcon from "../../../assets/images/icons/support.svg";
 
 const Index = ({ document, startConversation }) => {
+  const [fileContent, setFileContent] = useState(null);
+
+  const handleDrop = (e) => {
+    e.preventDefault();
+    const droppedFiles = e.dataTransfer.files;
+
+    if (droppedFiles.length === 1) {
+      const file = droppedFiles[0];
+
+      if (file.type === "text/plain") {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          setFileContent(e.target.result);
+        };
+        reader.readAsText(file);
+      } else if (file.type === "application/pdf") {
+        setFileContent(
+          <iframe
+            src={URL.createObjectURL(file)}
+            width="100%"
+            height="500px"
+            title="PDF Viewer"
+          ></iframe>,
+        );
+      } else if (
+        file.type === "application/msword" ||
+        file.type ===
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      ) {
+        setFileContent(
+          <a href={URL.createObjectURL(file)} download={file.name}>
+            Download {file.name}
+          </a>,
+        );
+      } else {
+        setFileContent("Unsupported file type");
+      }
+    }
+  };
+
+  const handleDragOver = (e) => {
+    e.preventDefault();
+  };
+
+  console.log("fileContent", fileContent);
+
   return (
-    <div className="flex flex-col items-center text-Grey-400 mt-[110px] mb-[150px]">
+    <div
+      onDrop={handleDrop}
+      onDragOver={handleDragOver}
+      className="flex flex-col items-center text-Grey-400 mt-[110px] mb-[150px]"
+    >
       {document && (
         <>
           <h3 className="h3 max-w-[576px] mb-[30px] text-center">
